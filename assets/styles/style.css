@@ -1,6 +1,6 @@
 .body_page{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 10% 1fr 20%;
     height: 100vh;
     grid-template-areas: 
@@ -44,6 +44,9 @@
     font-weight: bold;
    justify-content: space-around;
    margin: 30px;
+   text-align: center;
+   padding-top: 3em;
+   font-weight: bold;
 }
 .div_page{
     display: grid;
@@ -58,14 +61,23 @@
     background-color: rgb(253, 218, 176);
     grid-area: content1;
     margin: 30px;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: bold;
 }
 .content2{
     background-color: rgb(253, 218, 176);
     grid-area: content2;
     margin: 30px;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: bold;
 }
 .content3{
     background-color: rgb(253, 218, 176);
     grid-area: content3;
     margin: 30px;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: bold;
 }
