@@ -1,0 +1,71 @@
+.body_page{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 10% 1fr 20%;
+    height: 100vh;
+    grid-template-areas: 
+    "header header header" 
+    "section section aside"
+    "footer footer footer";
+}
+.header_page{
+    background-color: rgb(209, 209, 209);
+    grid-area: header;
+}
+.heading1{
+    text-align: center;
+}
+.main_page{
+    background-color: antiquewhite;
+    grid-area: section;
+    display: grid;
+
+}
+.heading2{
+    text-align: center;
+}
+.aside_page{
+    background-color: rgb(223, 250, 208);
+    grid-area: aside;
+}
+.heading3{
+    text-align: center;
+}
+.footer_page{
+    background-color: rgb(209, 209, 209);
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+}
+.footer_block{
+    background-color: white;
+    font-weight: bold;
+   justify-content: space-around;
+   margin: 30px;
+}
+.div_page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "content1 content2"
+    "content3 content3";
+    gap: 40px;
+}
+.content1{
+    background-color: rgb(253, 218, 176);
+    grid-area: content1;
+    margin: 30px;
+}
+.content2{
+    background-color: rgb(253, 218, 176);
+    grid-area: content2;
+    margin: 30px;
+}
+.content3{
+    background-color: rgb(253, 218, 176);
+    grid-area: content3;
+    margin: 30px;
+}
