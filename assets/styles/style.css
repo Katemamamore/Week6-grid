@@ -57,27 +57,19 @@
     "content3 content3";
     gap: 40px;
 }
-.content1{
+.content1, .content2, .content3{
     background-color: rgb(253, 218, 176);
-    grid-area: content1;
     margin: 30px;
     text-align: center;
     padding-top: 4rem;
-    font-weight: bold;
+    font-weight: bold;   
+}
+.content1{
+    grid-area: content1;
 }
 .content2{
-    background-color: rgb(253, 218, 176);
     grid-area: content2;
-    margin: 30px;
-    text-align: center;
-    padding-top: 4rem;
-    font-weight: bold;
 }
 .content3{
-    background-color: rgb(253, 218, 176);
     grid-area: content3;
-    margin: 30px;
-    text-align: center;
-    padding-top: 4rem;
-    font-weight: bold;
 }
